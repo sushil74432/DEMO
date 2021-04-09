@@ -1,0 +1,105 @@
+body{
+    /*margin: 0 5% 0 5%;*/
+    padding: 2%;
+    font: 1rem/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2C2C2C;
+    font-weight: 400;
+
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#posts{
+    /*width: 800px;*/
+}
+
+.post{
+    /*width: 700px;*/
+    min-height: 105px;
+    height: auto;
+    margin: 1% 1% 2% 1%;
+    padding : 1% 1% 5% 1% ;
+    display: block;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+.post:hover{
+    background-color: #f0f0f0;
+}
+
+.left-item{
+    width: 15%;
+    float: left;
+}
+.left-item img{
+    margin: 1em;
+    width: 180px;   
+}
+.center-item{
+    width: 65%;
+    float: left;
+    margin: 0 1% 0 1%;
+    min-height: 185px;
+    border-right: 1px rgba(0, 0, 0, 0.3) solid;
+    padding-left: 1%;
+    padding-right: 1%;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+}
+.right-item{
+    text-align: center;
+    width: 15%;
+    float: left;
+}
+.avatar img{
+    border-radius: 50%;
+}
+
+.author{
+    color: #ce4946;
+}
+
+#pagination {
+    text-decoration: none;
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    text-align: center;
+    font: 16px Arial, sans-serif;
+    width: 36px;
+    height: 36px;
+    padding: 1%;
+    margin: 1%;
+    color: #000;
+    text-align: center;
+    font: 16px Arial, sans-serif;
+}
+
+.active{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 1%;
+    margin: 1%;
+    font-style: bold;
+    background: #c83430;
+    color: #fff !important;
+    text-align: center;
+    font: 16px Arial, sans-serif;
+
+}
+
+/*.no-circle{
+    color : #000;
+    font: 16px Arial, sans-serif;
+}*/
